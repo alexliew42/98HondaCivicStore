@@ -1,8 +1,9 @@
-import NavigationBar from "./NavigationBar";
+import NavigationBar from "./components/NavigationBar";
 import { Routes, Route } from "react-router-dom";
-import Product from "./Product";
+import Product from "./components/Product";
 import "./App.css";
 import Home from "./components/home";
+import Cart from "./components/cart"
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/accessories" element={<h1>Accessories</h1>} />
         <Route path="/gallery" element={<h1>Gallery</h1>} />
-        <Route path="/cart" element={<h1>Cart</h1>} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
     </div>
   );

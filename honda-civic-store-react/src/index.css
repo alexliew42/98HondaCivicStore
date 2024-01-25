@@ -56,8 +56,6 @@ td {
 
 h1 {
   background-color: red;
-  animation-name: example;
-  animation-duration: 10s;
   border: #1832b3 solid 5px;
 }
 

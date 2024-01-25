@@ -9,7 +9,7 @@ function NavigationBar() {
   ];
   return (
     <nav>
-      <ul>
+      <ul id="topnav">
         {navigation.map((navItem, index) => (
           <NavigationItem
             key={index}
